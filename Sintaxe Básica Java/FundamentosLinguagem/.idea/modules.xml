@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FundamentosLinguagem.iml" filepath="$PROJECT_DIR$/.idea/FundamentosLinguagem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Padroes_Desenvolvimentos_e_Conceitos/Padroes_Desenvolvimentos_e_Conceitos.iml" filepath="$PROJECT_DIR$/Padroes_Desenvolvimentos_e_Conceitos/Padroes_Desenvolvimentos_e_Conceitos.iml" />
+    </modules>
+  </component>
+</project>
