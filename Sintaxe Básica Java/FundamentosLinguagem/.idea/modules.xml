@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FundamentosLinguagem.iml" filepath="$PROJECT_DIR$/.idea/FundamentosLinguagem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kwywords_e_tiposprimitivos/Kwywords_e_tiposprimitivos.iml" filepath="$PROJECT_DIR$/Kwywords_e_tiposprimitivos/Kwywords_e_tiposprimitivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operadores bitwise/Operadores bitwise.iml" filepath="$PROJECT_DIR$/Operadores bitwise/Operadores bitwise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Padroes_Desenvolvimentos_e_Conceitos/Padroes_Desenvolvimentos_e_Conceitos.iml" filepath="$PROJECT_DIR$/Padroes_Desenvolvimentos_e_Conceitos/Padroes_Desenvolvimentos_e_Conceitos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio/exercicio.iml" filepath="$PROJECT_DIR$/exercicio/exercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operadores de atribuicao e logicos/operadores de atribuicao e logicos.iml" filepath="$PROJECT_DIR$/operadores de atribuicao e logicos/operadores de atribuicao e logicos.iml" />
     </modules>
   </component>
 </project>
