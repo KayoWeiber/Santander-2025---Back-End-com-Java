@@ -27,6 +27,7 @@ public class UserDAO {
         return model;
     }
     public UserModel findById(final long id){
+        verifyStorage(id);
         var message = String.format("Não Existe usuário com o id %s cadastrado",id);
        return models.stream().filter(u -> u.getId() == id).findFirst().orElseThrow(()-> new UserNotFoundException(message));
 
@@ -34,5 +35,9 @@ public class UserDAO {
 
     public List<UserModel> findAll() {
         return models;
+    }
+    private void verifyStorage(final long id){
+        var message = String.format("Não existe usuário com o id %s cadastrado",id);
+        if(models.isEmpty()) throw new RuntimeException(message);
     }
 }

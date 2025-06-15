@@ -2,6 +2,7 @@ import DAO.UserDAO;
 import model.MenuOption;
 import model.UserModel;
 
+import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -39,11 +40,14 @@ public class Main {
                     System.out.println("Usuario excluido");
                 }
                 case FIND_BY_ID -> {
-                    var id = requestId();
-                    var user = dao.findById(id);
-                    System.out.printf("Usuários com id %s:",user);
-                    System.out.println(user);
+                    try {
+                        var id = requestId();
+                        var user = dao.findById(id);
+                        System.out.printf("Usuários com id %s:", user);
+                        System.out.println(user);
+                    }catch (Exception e){
 
+                    }
                 }
                 case FIND_ALL ->{
                     var users = dao.findAll();
@@ -67,7 +71,7 @@ public class Main {
         System.out.println("Informe o e-mail do usuáio: "); var email = scanner.next();
         System.out.println("Informe a sata de nascimento do usuáio (dd/mm/yyyy): "); var birthdayString = scanner.next();
         var formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        var birthday = OffsetDateTime.parse(birthdayString,formatter);
+        var birthday = LocalDate.parse(birthdayString,formatter);
         return new UserModel(0,name,email,birthday);
 
 
@@ -78,7 +82,7 @@ public class Main {
         System.out.println("Informe o e-mail do usuáio: "); var email = scanner.next();
         System.out.println("Informe a sata de nascimento do usuáio (dd/mm/yyyy): "); var birthdayString = scanner.next();
         var formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        var birthday = OffsetDateTime.parse(birthdayString,formatter);
+        var birthday = LocalDate.parse(birthdayString,formatter);
         return new UserModel(id,name,email,birthday);
 
 
