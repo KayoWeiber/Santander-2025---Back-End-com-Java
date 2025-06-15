@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FundamentosLinguagem/Kwywords_e_tiposprimitivos/Kwywords_e_tiposprimitivos.iml" filepath="$PROJECT_DIR$/FundamentosLinguagem/Kwywords_e_tiposprimitivos/Kwywords_e_tiposprimitivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FundamentosLinguagem/Operadores bitwise/Operadores bitwise.iml" filepath="$PROJECT_DIR$/FundamentosLinguagem/Operadores bitwise/Operadores bitwise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FundamentosLinguagem/Padroes_Desenvolvimentos_e_Conceitos/Padroes_Desenvolvimentos_e_Conceitos.iml" filepath="$PROJECT_DIR$/FundamentosLinguagem/Padroes_Desenvolvimentos_e_Conceitos/Padroes_Desenvolvimentos_e_Conceitos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Sintaxe Básica Java.iml" filepath="$PROJECT_DIR$/.idea/Sintaxe Básica Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-contaBancaria/desafio-contaBancaria.iml" filepath="$PROJECT_DIR$/desafio-contaBancaria/desafio-contaBancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FundamentosLinguagem/exercicio/exercicio.iml" filepath="$PROJECT_DIR$/FundamentosLinguagem/exercicio/exercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FundamentosLinguagem/operadores de atribuicao e logicos/operadores de atribuicao e logicos.iml" filepath="$PROJECT_DIR$/FundamentosLinguagem/operadores de atribuicao e logicos/operadores de atribuicao e logicos.iml" />
+    </modules>
+  </component>
+</project>
